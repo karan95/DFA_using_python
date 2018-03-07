@@ -1,0 +1,304 @@
+{
+    "dfa_name": "m2",
+    "states": [
+        "q0",
+        "m",
+        "p",
+        "0",
+        "e"
+    ],
+    "alphabet": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "-"
+    ],
+    "start_state": "q0",
+    "final_states": [
+        "p"
+    ],
+    "transition": [
+        {
+            "current_state": "q0",
+            "next_symbol": "0",
+            "new_state": "0"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "1",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "2",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "3",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "4",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "5",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "6",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "7",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "8",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "9",
+            "new_state": "p"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "-",
+            "new_state": "m"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "0",
+            "new_state": "e"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "1",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "2",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "3",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "4",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "5",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "6",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "7",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "8",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "9",
+            "new_state": "p"
+        },
+        {
+            "current_state": "m",
+            "next_symbol": "-",
+            "new_state": "e"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "0",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "1",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "2",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "3",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "4",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "5",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "6",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "7",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "8",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "9",
+            "new_state": "p"
+        },
+        {
+            "current_state": "p",
+            "next_symbol": "-",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "0",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "1",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "2",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "3",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "4",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "5",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "6",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "7",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "8",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "9",
+            "new_state": "e"
+        },
+        {
+            "current_state": "0",
+            "next_symbol": "-",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "0",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "1",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "2",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "3",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "4",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "5",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "6",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "7",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "8",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "9",
+            "new_state": "e"
+        },
+        {
+            "current_state": "e",
+            "next_symbol": "-",
+            "new_state": "e"
+        }
+    ]
+}

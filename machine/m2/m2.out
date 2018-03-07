@@ -1,0 +1,27 @@
+--------------------------------------------------
+TESTING m2
+--------------------------------------------------
+Testing word "0"...
+Accepted: False
+
+
+Testing word "-1"...
+Accepted: True
+
+
+Testing word "231891413293749242"...
+Accepted: True
+
+
+Testing word "12-5"...
+Accepted: False
+
+
+Testing word "012"...
+Accepted: False
+
+
+Testing word "-42"...
+Accepted: True
+
+

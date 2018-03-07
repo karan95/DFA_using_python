@@ -1,0 +1,15 @@
+--------------------------------------------------
+TESTING m1
+--------------------------------------------------
+Testing word "00011"...
+Accepted: True
+
+
+Testing word "00100"...
+Accepted: True
+
+
+Testing word "000"...
+Accepted: False
+
+

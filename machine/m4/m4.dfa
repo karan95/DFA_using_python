@@ -1,0 +1,65 @@
+{
+    "dfa_name": "m4",
+    "states": [
+        "q0",
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+    ],
+    "alphabet": [
+        "0",
+        "1"
+    ],
+    "start_state": "q0",
+    "final_states": [
+        "q4"
+    ],
+    "transition": [
+        {
+            "current_state": "q0",
+            "next_symbol": "1",
+            "new_state": "q0"
+        },
+        {
+            "current_state": "q0",
+            "next_symbol": "0",
+            "new_state": "q1"
+        },
+        {
+            "current_state": "q1",
+            "next_symbol": "0",
+            "new_state": "q1"
+        },
+        {
+            "current_state": "q1",
+            "next_symbol": "1",
+            "new_state": "q2"
+        },
+        {
+            "current_state": "q2",
+            "next_symbol": "1",
+            "new_state": "q0"
+        },
+        {
+            "current_state": "q2",
+            "next_symbol": "0",
+            "new_state": "q3"
+        },
+        {
+            "current_state": "q3",
+            "next_symbol": "1",
+            "new_state": "q4"
+        },
+        {
+            "current_state": "q4",
+            "next_symbol": "0",
+            "new_state": "q4"
+        },
+        {
+            "current_state": "q4",
+            "next_symbol": "1",
+            "new_state": "q4"
+        }
+    ]
+}

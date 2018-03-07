@@ -1,0 +1,23 @@
+--------------------------------------------------
+TESTING m4
+--------------------------------------------------
+Testing word "1000101010"...
+Accepted: True
+
+
+Testing word "000001111000"...
+Accepted: False
+
+
+Testing word "11111"...
+Accepted: False
+
+
+Testing word "000000000"...
+Accepted: False
+
+
+Testing word "1010101010"...
+Accepted: True
+
+

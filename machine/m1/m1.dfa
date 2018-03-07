@@ -1,0 +1,44 @@
+{
+    "dfa_name": "m1",
+    "states":[
+                "q1",
+                "q2",
+                "q3" ],
+    "alphabet":["0", "1"],
+    "start_state": "q1",
+    "final_states":[
+                    "q2"
+                    ],
+    "transition":[
+        {
+        "current_state": "q1",
+        "next_symbol": "0",
+        "new_state": "q1"
+        },
+        {
+        "current_state": "q1",
+        "next_symbol": "1",
+        "new_state": "q2"
+        },
+        {
+        "current_state": "q2",
+        "next_symbol": "0",
+        "new_state": "q3"
+        },
+        {
+        "current_state": "q2",
+        "next_symbol": "1",
+        "new_state": "q2"
+        },
+        {
+        "current_state": "q3",
+        "next_symbol": "0",
+        "new_state": "q2"
+        },
+        {
+        "current_state": "q3",
+        "next_symbol": "1",
+        "new_state": "q2"
+        }
+    ]
+}

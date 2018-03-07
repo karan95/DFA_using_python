@@ -1,0 +1,23 @@
+--------------------------------------------------
+TESTING m3
+--------------------------------------------------
+Testing word "1111"...
+Accepted: True
+
+
+Testing word "000011"...
+Accepted: False
+
+
+Testing word "001001010"...
+Accepted: True
+
+
+Testing word "1010101111"...
+Accepted: True
+
+
+Testing word "00000000"...
+Accepted: False
+
+
